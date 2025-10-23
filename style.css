@@ -3,10 +3,55 @@ html {
 }
 
 body {
-    margin: 120;
+    margin: 0;
     padding: 0;
 }
-.nav-bar {
+#nav-bar {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2F2F2F;
+    height: 70px;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    user-select: none;
+}
+
+.logo {
+    list-style-type: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     overflow: hidden;
+}
+
+.navlinks li {
+    float: left;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 14px 16px;
+}
+
+.navlinks a:hover {
+    color: #a2a2a2;
 }
