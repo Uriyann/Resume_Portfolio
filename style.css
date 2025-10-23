@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 120;
+    padding: 0;
+}
+.nav-bar {
+    background-color: #2F2F2F;
+    overflow: hidden;
+}
