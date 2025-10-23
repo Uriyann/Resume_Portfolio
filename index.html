@@ -10,38 +10,46 @@
 </head>
 
 <body>
-    <nav id="nav-bar">
+    <header class="navbar">
         <div class="logo">Portfolio</div>
-        <ul class="navlinks">
-            <li><a href="#hero-section">Home</a></li>
-            <li><a href="#about-section">About Me</a></li>
-            <li><a href="#projects-section">Projects</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-        </ul>
-    </nav>
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
 
     <main>
         <section id="hero-section">
-            <div class="content">
+
+            <div class="content-left">
+                <div class="img-box"></div>
+                <div class="img-box"></div>
+                <div class="img-box"></div>
+            </div>
+
+            <div class="content-right">
                 <h1 id="title">Welcome To My Portfolio</h1>
                 <blockquote id="quote">"Take the path, branches the second"</blockquote>
                 <p id="description">Aspiring Full Stack Developer | Explore my projects and skills in web development, design, and more.</p>
-
-                <div class="icons">
-                    <img src="assets/facebook.png" alt="Facebook" div="facebook">
-                    <img src="assets/github.png" alt="Github" div="github">
-                    <img src="assets/discord.png" alt="Discord" div="discord">
-                    <img src="assets/tik-tok.png" alt="Tiktok" div="tiktok">
-                </div>
-
-                <button class="btn-hero">
-                    <span>Explore More</span>
-                    <div class="circle">
-                        <span class="arrow">▶</span>
-                    </div>
-                </button>
             </div>
 
+            <div class="icons">
+                <img src="assets/facebook.png" alt="Facebook" class="icon facebook">
+                <img src="assets/github.png" alt="Github" class="icon github">
+                <img src="assets/discord.png" alt="Discord" class="icon discord">
+                <img src="assets/tik-tok.png" alt="Tiktok" class="icon tiktok">
+            </div>
+
+            <button class="btn-hero">
+                <span>Explore More</span>
+                <div class="circle">
+                    <span class="arrow">▶</span>
+                </div>
+            </button>
         </section>
     </main>
 </body>
